@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-
+  const displayDetails = () => {};
   return (
     <>
       <div className="container">
@@ -110,15 +110,12 @@ function App() {
               <option value="5">Humanities</option>
             </select>
           </div>
-
-          {/* <button type="submit" className="btn btn-primary w-100">
-          Register
-        </button>
-        <button type="submit" className="btn btn-primary w-100">
-          Cancel
-        </button> */}
           <div class="d-flex justify-content-between">
-            <button type="button" class="btn btn-primary">
+            <button
+              onClick={displayDetails}
+              type="button"
+              class="btn btn-primary"
+            >
               Register
             </button>
             <button type="button" class="btn btn-secondary">
