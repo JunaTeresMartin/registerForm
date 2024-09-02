@@ -1,0 +1,19 @@
+body {
+  background-image: url(./assets/bg.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Cover the entire screen */
+  height: 100vh; /* Ensure the body takes full height of the viewport */
+  margin: 0; /* Remove default body margin */
+}
+
+.container {
+  height: 100%; /* Make the container take full height */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 100px;
+  color: white;
+  font-style: italic;
+}
+
+
